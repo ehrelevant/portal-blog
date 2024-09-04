@@ -6,7 +6,7 @@
 
 <a
 	{href}
-	class="flex justify-center items-center px-6 h-full text-lg hover:underline {href ==
+	class="flex justify-center items-center px-8 h-full text-xl hover:underline {href ==
 	$page.url.pathname
 		? 'underline'
 		: ''}"><slot /></a

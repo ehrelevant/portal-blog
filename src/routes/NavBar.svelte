@@ -18,7 +18,7 @@
 	}
 </script>
 
-<nav class="fixed top-0 w-full h-14 hidden sm:flex flex-row justify-between bg-black text-blue">
+<nav class="fixed top-0 w-full h-20 hidden sm:flex flex-row justify-between bg-black text-blue">
 	<ul class="h-full flex flex-row ml-16">
 		<li class="h-full"><NavBtn href="/">Home</NavBtn></li>
 		<li class="h-full"><NavBtn href="/blog">Blog</NavBtn></li>
