@@ -7,7 +7,7 @@
 
 <a
 	href="{base}{href}"
-	class="block w-full py-4 text-center text-white text-2xl hover:underline {href ==
+	class="block w-full py-4 text-center text-white text-2xl hover:underline {base + href ==
 	$page.url.pathname
 		? 'underline'
 		: ''}"><slot /></a
