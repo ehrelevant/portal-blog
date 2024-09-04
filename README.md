@@ -1,38 +1,50 @@
-# create-svelte
+# CS191/192 Blog
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Development
 
-## Creating a project
+This project uses [`pnpm`](https://pnpm.io/) as the package manager for [Node.js](https://nodejs.org/en). To install, see the instructions written [here](https://pnpm.io/installation).
 
-If you're seeing this, you've probably already done this step. Congrats!
+To get started, it is recommended that you first fork this project then clone the fork rather than directly cloning this repository.
+
+After cloning the project, install the project dependencies with the following command in the project directory:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+# Install the project dependencies.
+pnpm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To start a development server run either of the following commands in the project directory:
 
 ```bash
-npm run dev
+# Same as the file watcher, but also starts a developer server at `localhost:5173` by default.
+pnpm dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+Before pushing or submitting a pull request to the repository, be sure to run the formatters and linters. This is done to ensure that the codebase remains clean and consistent.
 
 ```bash
-npm run build
+# Fix code formatting with Prettier.
+pnpm format
+
+# Checks code with Prettier & ESLint.
+pnpm lint
 ```
 
-You can preview the production build with `npm run preview`.
+## Building
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To build/create a production version of the app, run:
+
+```bash
+# Build and optimize the project. Static assets are saved to `build/` use this when deploying.
+pnpm build
+```
+
+Afterwards, preview the app with:
+
+```bash
+# Locally preview the production website after building.
+pnpm preview
+```
