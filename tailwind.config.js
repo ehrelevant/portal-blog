@@ -10,7 +10,11 @@ export default {
 			red: '#EECAD5',
 			black: '#262626'
 		},
-		extend: {}
+		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif', 'system-ui']
+			}
+		}
 	},
 	plugins: []
 };

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Importing Fonts */
+@layer base {
+	@font-face {
+		font-family: 'Inter';
+		src: url('/fonts/inter-variable.ttf') format('truetype');
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Inter';
+		src: url('/fonts/inter-italic-variable.ttf') format('truetype');
+		font-style: italic;
+		font-display: swap;
+	}
+}
+
