@@ -17,17 +17,17 @@
 		<h2 class="text-3xl md:text-5xl">CS191/192 Group Blog</h2>
 	</div>
 	<div class="w-full sm:grow flex justify-end items-center">
-		<div class="w-full flex flex-row sm:flex-col sm:basis-64 min-w-48 gap-4 lg:mr-12">
+		<div class="w-full flex flex-row sm:flex-col sm:basis-64 min-w-48 gap-4 lg:mr-12 text-blue">
 			<a
 				href="{base}/blog"
-				class="bg-black text-blue flex justify-center items-center text-center h-32 text-xl grow sm:text-2xl rounded-lg hover:scale-105 transition-all"
+				class="bg-black flex justify-center items-center text-center grow min-h-32 text-lg sm:text-2xl rounded-lg hover:scale-105 transition-all"
 			>
 				&gt;&gt;&gt; <br />
 				Start Browsing
 			</a>
 			<a
 				href="{base}/about"
-				class="bg-black text-blue flex justify-center items-center text-center h-32 text-xl grow sm:text-2xl rounded-lg hover:scale-105 transition-all"
+				class="bg-black flex justify-center items-center text-center grow min-h-32 text-lg sm:text-2xl rounded-lg hover:scale-105 transition-all"
 			>
 				&gt;&gt;&gt; <br />
 				View Project
