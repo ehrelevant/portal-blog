@@ -10,8 +10,8 @@
 		</div>
 	</div>
 	<div class="flex flex-col justify-center gap-2">
-		<h1 class="text-7xl md:text-8xl tracking-wider">
-			<span class="underline">Power</span><br class="sm:hidden" />Chell
+		<h1 class="text-7xl md:text-8xl">
+			Power<br class="sm:hidden" /><span class="italic">Chell</span>
 		</h1>
 		<h2 class="text-3xl md:text-5xl">CS191/192 Group Blog</h2>
 	</div>
