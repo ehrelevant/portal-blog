@@ -5,6 +5,6 @@
 
 <NavBar />
 
-<main class="pt-14 h-screen w-full">
+<main class="pt-20 h-screen w-full">
 	<slot />
 </main>
