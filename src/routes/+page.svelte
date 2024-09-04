@@ -3,9 +3,9 @@
 	import Pointer from '$lib/icons/Pointer.svelte';
 </script>
 
-<section class="h-full flex flex-col sm:flex-row justify-center gap-12 sm:gap-4 px-6">
-	<div class="relative hidden lg:flex justify-center h-full w-16 shrink-0">
-		<div class="h-full border-l-4 border-black" />
+<section class="grow h-full flex flex-col sm:flex-row justify-center gap-12 sm:gap-4 px-6">
+	<div class="relative hidden lg:flex justify-center min-h-full w-16 shrink-0">
+		<div class="min-h-full border-l-4 border-black" />
 		<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 py-6 bg-blue">
 			<Pointer />
 		</div>
