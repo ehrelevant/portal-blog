@@ -3,7 +3,7 @@
 	import BlogCard from './BlogCard.svelte';
 </script>
 
-<section class="grow h-full flex flex-col sm:flex-row justify-center gap-12 sm:gap-4 px-6">
+<section class="grow h-full flex flex-col sm:flex-row sm:justify-center gap-12 sm:gap-4 px-6">
 	<div class="relative hidden lg:flex justify-center min-h-full w-16 shrink-0">
 		<div class="min-h-full border-l-4 border-black" />
 	</div>

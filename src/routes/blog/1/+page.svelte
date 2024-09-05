@@ -8,23 +8,6 @@
 	<p class="text-lg text-justify">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, esse tempora? Ullam culpa
 		dolor ex. Excepturi unde, voluptatibus sequi officia maiores similique eveniet quaerat nostrum
-		commodi, distinctio est obcaecati enim? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		Repellat, esse tempora? Ullam culpa dolor ex. Excepturi unde, voluptatibus sequi officia maiores
-		similique eveniet quaerat nostrum commodi, distinctio est obcaecati enim? Lorem ipsum dolor sit
-		amet consectetur adipisicing elit. Repellat, esse tempora? Ullam culpa dolor ex. Excepturi unde,
-		voluptatibus sequi officia maiores similique eveniet quaerat nostrum commodi, distinctio est
-		obcaecati enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, esse tempora?
-		Ullam culpa dolor ex. Excepturi unde, voluptatibus sequi officia maiores similique eveniet
-		quaerat nostrum commodi, distinctio est obcaecati enim? Lorem ipsum dolor sit amet consectetur
-		adipisicing elit. Repellat, esse tempora? Ullam culpa dolor ex. Excepturi unde, voluptatibus
-		sequi officia maiores similique eveniet quaerat nostrum commodi, distinctio est obcaecati enim?
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, esse tempora? Ullam culpa
-		dolor ex. Excepturi unde, voluptatibus sequi officia maiores similique eveniet quaerat nostrum
-		commodi, distinctio est obcaecati enim? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		Repellat, esse tempora? Ullam culpa dolor ex. Excepturi unde, voluptatibus sequi officia maiores
-		similique eveniet quaerat nostrum commodi, distinctio est obcaecati enim? Lorem ipsum dolor sit
-		amet consectetur adipisicing elit. Repellat, esse tempora? Ullam culpa dolor ex. Excepturi unde,
-		voluptatibus sequi officia maiores similique eveniet quaerat nostrum commodi, distinctio est
 		obcaecati enim?
 	</p>
 </BlogTemplate>
