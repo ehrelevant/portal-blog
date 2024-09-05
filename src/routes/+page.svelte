@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import SpanGt from '$lib/components/SpanGt.svelte';
 	import Pointer from '$lib/icons/Pointer.svelte';
+	import HomeBtn from './HomeBtn.svelte';
 </script>
 
 <section class="grow h-full flex flex-col sm:flex-row justify-center gap-12 sm:gap-4 px-6">
@@ -18,20 +19,22 @@
 	</div>
 	<div class="w-full sm:grow flex justify-end items-center">
 		<div class="w-full flex flex-row sm:flex-col sm:basis-64 min-w-48 gap-4 lg:mr-12 text-blue">
-			<a
-				href="{base}/blog"
-				class="bg-black flex justify-center items-center text-center grow min-h-32 text-lg sm:text-2xl rounded-lg hover:scale-105 transition-all"
-			>
-				&gt;&gt;&gt; <br />
+			<HomeBtn href="/blog">
+				<div>
+					<SpanGt delayClass="delay-0" /><SpanGt delayClass="delay-75" /><SpanGt
+						delayClass="delay-150"
+					/>
+				</div>
 				Start Browsing
-			</a>
-			<a
-				href="{base}/about"
-				class="bg-black flex justify-center items-center text-center grow min-h-32 text-lg sm:text-2xl rounded-lg hover:scale-105 transition-all"
-			>
-				&gt;&gt;&gt; <br />
+			</HomeBtn>
+			<HomeBtn href="/about">
+				<div>
+					<SpanGt delayClass="delay-0" /><SpanGt delayClass="delay-75" /><SpanGt
+						delayClass="delay-150"
+					/>
+				</div>
 				View Project
-			</a>
+			</HomeBtn>
 		</div>
 	</div>
 </section>

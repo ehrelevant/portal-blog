@@ -13,6 +13,9 @@ export default {
 		extend: {
 			fontFamily: {
 				inter: ['Inter', 'sans-serif', 'system-ui']
+			},
+			transitionProperty: {
+				'colors-weight': 'color, font-weight'
 			}
 		}
 	},
