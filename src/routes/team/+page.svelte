@@ -1,8 +1,8 @@
 <script>
-	import Edzo from '$lib/images/team/Edzo.png';
-	import Ehren from '$lib/images/team/Ehren.jpg';
-	import Yuwen from '$lib/images/team/Yuwen.jpg';
-	import Lawrence from '$lib/images/team/Lawrence.png';
+	import Edzo from '$lib/images/team/Edzo.webp';
+	import Ehren from '$lib/images/team/Ehren.webp';
+	import Yuwen from '$lib/images/team/Yuwen.webp';
+	import Lawrence from '$lib/images/team/Lawrence.webp';
 	import TeamCard from './TeamCard.svelte';
 </script>
 

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import BlogTemplate from '$lib/components/BlogTemplate.svelte';
-	import sample from '$lib/images/sample.jpg';
+	import sample from '$lib/images/sample.webp';
 </script>
 
 <BlogTemplate src={sample} title="Blog Website Launch" date="09/05/2024">
