@@ -19,7 +19,7 @@
 		>
 		<img {src} alt={title} class="w-full aspect-[4/1]" />
 		<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-1">
-			<h2 class="text-4xl md:text-5xl">{title}</h2>
+			<h1 class="text-4xl md:text-5xl">{title}</h1>
 			<h2 class="text-xl md:text-2xl">{date}</h2>
 		</div>
 		<slot />
