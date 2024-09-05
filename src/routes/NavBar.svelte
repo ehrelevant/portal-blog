@@ -19,12 +19,13 @@
 </script>
 
 <nav
-	class="z-50 fixed top-0 w-full h-20 hidden sm:flex flex-row justify-between bg-black text-blue"
+	class="z-50 fixed top-0 w-full h-20 hidden md:flex flex-row justify-between bg-black text-blue"
 >
-	<ul class="h-full flex flex-row ml-16">
+	<ul class="h-full flex flex-row lg:ml-16">
 		<li class="h-full"><NavBtn href="/">Home</NavBtn></li>
 		<li class="h-full"><NavBtn href="/blog">Blog</NavBtn></li>
-		<li class="h-full"><NavBtn href="/about">About</NavBtn></li>
+		<li class="h-full"><NavBtn href="/about">About the Project</NavBtn></li>
+		<li class="h-full"><NavBtn href="/team">About Us</NavBtn></li>
 	</ul>
 	<div class="h-full flex flex-row mr-8">
 		<a
@@ -36,7 +37,7 @@
 	</div>
 </nav>
 
-<nav class="block sm:hidden">
+<nav class="block md:hidden">
 	{#if isMenuOpen}
 		<div class="z-50 fixed w-full h-screen bg-black/60" transition:fade={{ duration: 100 }}>
 			<div
@@ -55,7 +56,10 @@
 						<MobileNavBtn href="/blog">Blog</MobileNavBtn>
 					</li>
 					<li transition:fly={{ delay: 50, duration: 100, y: -500, easing: quadInOut }}>
-						<MobileNavBtn href="/about">About</MobileNavBtn>
+						<MobileNavBtn href="/about">About the Project</MobileNavBtn>
+					</li>
+					<li transition:fly={{ delay: 25, duration: 100, y: -500, easing: quadInOut }}>
+						<MobileNavBtn href="/team">About Us</MobileNavBtn>
 					</li>
 				</ul>
 			</div>
