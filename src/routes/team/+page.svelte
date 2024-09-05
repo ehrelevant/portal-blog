@@ -1,8 +1,8 @@
 <script>
-	import sample from '$lib/images/sample.png';
 	import Edzo from '$lib/images/team/Edzo.png';
 	import Ehren from '$lib/images/team/Ehren.jpg';
 	import Yuwen from '$lib/images/team/Yuwen.jpg';
+	import Lawrence from '$lib/images/team/Lawrence.png';
 	import TeamCard from './TeamCard.svelte';
 </script>
 
@@ -14,7 +14,7 @@
 		class="my-8 w-full min-h-full grow grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-x-6 gap-y-4"
 	>
 		<TeamCard src={Edzo} name="Edzo Acyatan" />
-		<TeamCard src={sample} name="Lawrence Bermudez" />
+		<TeamCard src={Lawrence} name="Lawrence Bermudez" />
 		<TeamCard src={Ehren} name="Ehren Castillo" />
 		<TeamCard src={Yuwen} name="Yuwen Saavedra" />
 	</div>
