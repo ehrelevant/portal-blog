@@ -1,5 +1,5 @@
 <script lang="ts">
-	import src from '$lib/images/sample.png';
+	import src from '$lib/images/sample.jpg';
 </script>
 
 <section class="grow h-full flex flex-col sm:flex-row sm:justify-center gap-12 sm:gap-4 px-6">

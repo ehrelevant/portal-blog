@@ -1,5 +1,5 @@
 <script>
-	import sample from '$lib/images/sample.png';
+	import sample from '$lib/images/sample.jpg';
 	import BlogCard from './BlogCard.svelte';
 </script>
 
