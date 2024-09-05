@@ -8,10 +8,6 @@
 		<div class="min-h-full border-l-4 border-black" />
 	</div>
 	<div class="my-8 grid grid-flow-row auto-rows-min grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
-		<BlogCard href="/blog/1" src={sample} title="Project Plan" date="09/05/2024" />
-		<BlogCard href="/blog/1" src={sample} title="Project Plan" date="09/05/2024" />
-		<BlogCard href="/blog/1" src={sample} title="Project Plan" date="09/05/2024" />
-		<BlogCard href="/blog/1" src={sample} title="Project Plan" date="09/05/2024" />
-		<BlogCard href="/blog/1" src={sample} title="Project Plan" date="09/05/2024" />
+		<BlogCard href="/blog/1" src={sample} title="Blog Website Launch" date="09/05/2024" />
 	</div>
 </section>
