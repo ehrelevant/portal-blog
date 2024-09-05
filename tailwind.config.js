@@ -16,6 +16,9 @@ export default {
 			},
 			transitionProperty: {
 				'colors-weight': 'color, font-weight'
+			},
+			boxShadow: {
+				solid: '0.5rem 0.5rem #26262644'
 			}
 		}
 	},
