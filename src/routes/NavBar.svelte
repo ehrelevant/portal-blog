@@ -30,7 +30,7 @@
 		<a
 			href="https://github.com/ehrelevant/cs19x-blog"
 			target="_blank"
-			class="h-full aspect-square flex justify-center items-center hover:scale-105 transition-all"
+			class="h-full aspect-square flex justify-center items-center hover:scale-105 transition-transform"
 			><Github /></a
 		>
 	</div>
@@ -43,8 +43,9 @@
 				class="w-full bg-black flex justify-center items-start"
 				transition:fly={{ duration: 100, y: -500, easing: quadInOut }}
 			>
-				<button class="absolute top-4 right-4 hover:scale-105 transition-all" on:click={closeMenu}
-					><XMark /></button
+				<button
+					class="absolute top-4 right-4 hover:scale-105 transition-transform"
+					on:click={closeMenu}><XMark /></button
 				>
 				<ul class="flex flex-col w-full justify-center gap-2 m-4 mt-16">
 					<li transition:fly={{ delay: 100, duration: 100, y: -500, easing: quadInOut }}>
@@ -61,7 +62,7 @@
 		</div>
 	{:else}
 		<button
-			class="z-50 fixed top-4 right-4 hover:scale-105 transition-all"
+			class="z-50 fixed top-4 right-4 hover:scale-105 transition-transform"
 			transition:fly={{ duration: 100, y: -500, easing: quadInOut }}
 			on:click={openMenu}><List /></button
 		>
