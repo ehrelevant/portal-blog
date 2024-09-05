@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-
 	export let src: string;
 	export let name: string;
 </script>

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import src from '$lib/images/sample.png';
 </script>
 
