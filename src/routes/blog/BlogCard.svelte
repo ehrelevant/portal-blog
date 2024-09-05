@@ -9,7 +9,7 @@
 
 <a
 	href="{base}{href}"
-	class="bg-white w-full h-fit rounded-xl p-2 md:p-4 flex flex-col gap-2 hover:scale-105 transition-transform"
+	class="bg-white w-full h-fit rounded-xl p-2 md:p-4 flex flex-col gap-2 hover:scale-[1.025] transition-transform"
 >
 	<img {src} alt={title} class="w-full aspect-[4/1]" />
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-1">
