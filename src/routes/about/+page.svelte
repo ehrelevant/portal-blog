@@ -7,7 +7,7 @@
 		<div class="min-h-full border-l-4 border-black" />
 	</div>
 	<div class="relative bg-white w-full my-8 p-4 sm:p-8 rounded-xl shadow-solid flex flex-col gap-2">
-		<img {src} alt="CS 195 portal" class="w-full aspect-[4/1]" />
+		<img {src} alt="CS 195 portal" loading="lazy" class="w-full aspect-[4/1]" />
 		<div>
 			<h1 class="text-4xl md:text-5xl">CS 195 Portal</h1>
 		</div>
