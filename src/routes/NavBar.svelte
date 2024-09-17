@@ -27,12 +27,11 @@
 		<li class="h-full"><NavBtn href="/about">About the Project</NavBtn></li>
 		<li class="h-full"><NavBtn href="/team">About Us</NavBtn></li>
 	</ul>
-	<div class="h-full flex flex-row mr-8">
+	<div class="h-full flex items-center mr-8">
 		<a
 			href="https://github.com/ehrelevant/cs19x-blog"
 			target="_blank"
-			class="h-full aspect-square flex justify-center items-center hover:scale-105 transition-transform"
-			><Github /></a
+			class="flex justify-center items-center hover:scale-105 transition-transform"><Github /></a
 		>
 	</div>
 </nav>
