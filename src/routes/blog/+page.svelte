@@ -1,6 +1,7 @@
 <script>
-	import sample from '$lib/images/sample.webp';
 	import BlogCard from './BlogCard.svelte';
+	import mockupSample from '$lib/images/blog/mockupSample.png';
+	import sample from '$lib/images/sample.webp';
 </script>
 
 <section class="grow h-full flex flex-col sm:flex-row sm:justify-center gap-12 sm:gap-4 px-6">
@@ -8,7 +9,7 @@
 		<div class="min-h-full border-l-4 border-black" />
 	</div>
 	<div class="my-8 grid grid-flow-row auto-rows-min grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
-		<BlogCard href="/blog/2" src={sample} title="The (Project) Plan" date="09/18/2024" />
+		<BlogCard href="/blog/2" src={mockupSample} title="The Project Plan" date="09/18/2024" />
 		<BlogCard href="/blog/1" src={sample} title="Blog Website Launch" date="09/05/2024" />
 	</div>
 </section>
