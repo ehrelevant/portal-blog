@@ -9,7 +9,7 @@
 	</p>
 	<div class="w-full max-w-full flex justify-center">
 		<iframe
-			title="System Requirements Document (Part 1)"
+			title="System Requirements Document (Part I)"
 			src="https://drive.google.com/file/d/1HoQNgDN_JHw_GY5PcY-iYo0KQwhQ52On/preview"
 			width="1800"
 			height="640"
