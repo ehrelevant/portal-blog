@@ -29,7 +29,7 @@
 	</ul>
 	<div class="h-full flex items-center mr-8">
 		<a
-			href="https://github.com/ehrelevant/cs19x-blog"
+			href="https://github.com/ehrelevant/portal-blog"
 			target="_blank"
 			class="flex justify-center items-center hover:scale-105 transition-transform"><Github /></a
 		>
