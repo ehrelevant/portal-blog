@@ -5,11 +5,11 @@
 
 <BlogTemplate src={sample} title="Initial Software Video Demo" date="11/15/2024">
 	<p class="text-lg text-justify">
-		Below is a short video demo showcasing our current progress on "Portalis," CS195 portal website.
-		Note that what is covered in the video demo primarily pertains to work that is already visible
-		on the website. Much work has been done on the backend and database of the application that was
-		not fully shown in the video. This includes some actions whose effects are only visible on the
-		database, but not on the frontend as of yet.
+		Below is a short video demo showcasing our current progress on <em>Portalis</em>, the CS 195
+		Portal. Do note that whatever is shown in the video demo mostly pertains to visible aspects of
+		the portal. Much work has also been done on the backend of the application that was not shown to
+		its fullest capacity in the demo. This includes actions whose effects are only visible on the
+		database and not on the frontend as of yet.
 	</p>
 	<div class="w-full max-w-full flex justify-center">
 		<iframe
