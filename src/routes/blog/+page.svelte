@@ -8,7 +8,13 @@
 	<div class="relative hidden lg:flex justify-center min-h-full w-16 shrink-0">
 		<div class="min-h-full border-l-4 border-black" />
 	</div>
-	<div class="my-8 grid grid-flow-row auto-rows-min grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+	<div class="my-8 grid grid-flow-row auto-rows-min grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-4">
+		<BlogCard
+			href="/blog/6"
+			src={sample}
+			title="Software Testing Report (TypeKindly)"
+			date="11/27/2024"
+		/>
 		<BlogCard href="/blog/5" src={sample} title="Initial Software Video Demo" date="11/15/2024" />
 		<BlogCard href="/blog/4" src={sample} title="System Requirements II" date="10/16/2024" />
 		<BlogCard href="/blog/3" src={sample} title="System Requirements I" date="09/27/2024" />
