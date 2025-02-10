@@ -3,11 +3,11 @@
 	import sample from '$lib/images/sample.webp';
 </script>
 
-<BlogTemplate src={sample} title="Weekly Blog 01" date="02/04/2025">
+<BlogTemplate src={sample} title="Weekly Blog 02" date="02/11/2025">
 	<div class="w-full max-w-full flex justify-center">
 		<iframe
-			title="Weekly Blog 01"
-			src="https://drive.google.com/file/d/11F5YuWigJYxN5sMwfstlHYxNk-wWnT3R/preview"
+			title="Weekly Blog 02"
+			src="https://drive.google.com/file/d/1bYkjmqfVyqB1N01wfDg2xUiCRVu0gcVX/preview"
 			width="1800"
 			height="640"
 			allow="autoplay"
