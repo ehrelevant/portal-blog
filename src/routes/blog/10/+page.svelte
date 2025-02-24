@@ -20,6 +20,6 @@
 		<br /><br />
 		While, there's still quite a number of issues and missing features on the website at the moment (mainly
 		the csv import/export), we'll make sure that we're able to get these issues ironed out by the next
-		release! Demo videos are also to follow!
+		release!
 	</p>
 </BlogTemplate>
