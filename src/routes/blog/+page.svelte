@@ -9,6 +9,7 @@
 		<div class="min-h-full border-l-4 border-black" />
 	</div>
 	<div class="my-8 grid grid-flow-row auto-rows-min grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-4">
+		<BlogCard href="/blog/28" src={sample} title="Documentation" date="05/15/2025" />
 		<BlogCard href="/blog/27" src={sample} title="Weekly Blog 15" date="05/13/2025" />
 		<BlogCard href="/blog/26" src={sample} title="Project Presentation Slides" date="05/08/2025" />
 		<BlogCard href="/blog/25" src={sample} title="Weekly Blog 14" date="05/06/2025" />
